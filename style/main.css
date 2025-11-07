@@ -10,6 +10,7 @@
         --denied: #ff8686;
         --text: #515959;
         --border: #59de0c;
+        --text--card: #fff;
     }
     .main {
         display: flow-root;
@@ -22,7 +23,7 @@
         color: var(--text);
     }
     .card {
-        max-width: 21em;
+        max-width: 22em;
         margin: 1rem; /* without scaling */
         padding: 1em;
     }
@@ -30,5 +31,56 @@
 
 @layer components {
     /* todo components */
- 
+    .card--marketer {
+        border: #515959 5px;
+        border-radius: 5px;
+    }
+    .card__header {
+        margin-bottom: 2em ;
+    }
+    .card__title {
+        color: var(--secondary);
+        font-size: 2em;
+        background-color: aqua;
+        padding-bottom: 0.75em;
+    }
+    .card__description {
+        font-size: medium;
+        background-color: #ff8686;
+         
+    }
+
+    .card__main__text {
+        background-color: aliceblue;
+        padding-bottom: 0.75em;
+    }
+    .card__button {
+        background-color:#07755D;
+        border-radius: 5px;
+        color: var(--text--card);
+        text-align: center;
+        padding: 1em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        ;
+    }
+
+    .button__text {
+        color: #fff;
+        text-decoration: none;
+    }
+    .card__main {
+        margin-bottom: 2em;
+    }
+     li {
+        padding: 5px;
+        font-size: 1em;
+        color: var(--text);
+    }
+    span {
+        color: var(--primary);
+        font-size: 1em;
+    }
+    p {
+        margin: 0;
+    }
 }
