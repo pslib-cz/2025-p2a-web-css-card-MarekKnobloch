@@ -141,8 +141,8 @@
         padding-top: 5em;
         padding-bottom: 5em;
         background-color: gray;
-        margin-top: 5em;
-        margin-bottom: 5em;
+        margin-top: 3em;
+        margin-bottom: 3em;
         margin-left: 4em;
         margin-right: 4em;
         border-radius: 10px;
@@ -150,7 +150,7 @@
         
     }
     .footer__black {
-        padding: 3em;
+        padding: 1em;
         text-align: center;
     }
     .text__dark {
@@ -177,4 +177,76 @@
     background-color: darkgray;
     border-radius: 10px;
    }
+
+
+   .card--figma {
+    background-color: #07755D;
+    border: 20px #515959;
+   }
+   .heading {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+
+   } 
+   .heading__h1 {
+    text-align: center;
+    margin: 1em;
+    display: inline-block;
+    
+   }
+   .text__text {
+    margin-top: 1em;
+    display: inline;
+    color: #fff;
+    font-size: large;
+    font-weight: 500;
+   }
+   .a__heading {
+    background-color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 0.5em;
+   }
+   .main__text {
+    text-align: center;
+    background-color: blue ;
+    color: #fff;
+   }
+   .img__figma {
+   display: inline-block;
+   width: 100px;
+   }
+   .header__container {
+    display: block;
+    margin-left: 6.5em;
+   }
+   .header__div {
+    display: inline-block;
+    margin: 2em;
+   }
+   .ctyruhelnik {
+    width: 12em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+     background-color: red;
+   }
+   .ctyruhelnik--modry {
+    background-color: aqua;
+    display: inline-block;
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+   }
+   .img__figma {
+    margin-bottom: 2em;
+   }
+   .main__figma {
+    text-align: center;
+   }
+ .footer__figma {
+    text-align: center;
+ }
 }
